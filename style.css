@@ -16,14 +16,14 @@ div.Peter {
 .listing li {
   list-style-type: none;
   float: left;
-  padding-right: 20px;
+  padding-right: 5px;
   color: green;
 }
 
 .David {
   height: 30px;
   width: 400px;
-  margin-left: 1500px;
+  margin-left: 900px;
   border-radius: 8px;
   margin-top: -100px;
   padding: 5px;
@@ -56,7 +56,7 @@ div.Peter {
 .Elijah {
   display: grid;
   grid-template-columns: auto auto;
-  margin-left: 200px;
+  margin-left: 120px;
   margin-right: 200px;
   margin-top: 100px;
   background-image: url(./Vectorbackgd.png);
@@ -65,8 +65,8 @@ div.Peter {
 }
 
 .Elijah2 img {
-  width: 600px;
-  height: 500px;
+  width: 500px;
+  height: 400px;
   margin-top: -8%;
 }
 
@@ -81,14 +81,14 @@ transition: 0.3s;
 scroll-behavior: smooth;}
 
 .Elijah1 h3 {
-  font-size: 48px;
+  font-size: 32px;
   text-align: center;
   text-shadow:50% rgb(24, 23, 23);
   margin-top: -2%;
 }
 
 .Elijah1 p {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .Elijah1 button {
@@ -559,7 +559,7 @@ div.shift {
 
 .ki {
   margin-top: -160px;
-  margin-left: 30%;
+  margin-left: 35%;
   list-style-type: none;
   width: 750px;
   height: 40px;
