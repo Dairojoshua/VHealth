@@ -1,120 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<link rel="stylesheet" href="./style.css">
-<body>
+  </head>
+  <link rel="stylesheet" href="./style.css" />
+  <body>
     <div class="Peter">
-        <a href="./index.html"><img src="./vhealth logo  1.jpg" alt="Vhealth"></a></div>
-        <div class="listing">
-          <ul><ul>
-                <li class="dropdown"><button class="dropbtn"><b>Medical Tests</b></button>
-                <div class="dropdown-content">
-                <a href="./sub healthtest.html">Men's Health</a>
-                <a href="./woman sub healthtest.html">Women's Health</a>
-                <a href="./sexual.html">Sexual Health</a>
-                <a href="./general.html">General Health</a>
-                <a href="./Covid.html">COVID Health</a>
-                </div></li>
-                <li class="dropdown"><a href="./drugs.html"><button class="dropbtn"><b>Drugs</b></button></a>
-              <li class="dropdown"><button class="dropbtn"><b>Help</b></button>
-              <div class="dropdown-content">
-              <a href="#doc">Medical Advised Section</a></button>
-              <a href="./symptoms.html">Emergency Section</a>
-              <a href="#fut">Contact Us</a>
-              </div></li>
-          </ul>
+      <a href="./index.html"
+        ><img src="./vhealth logo  1.jpg" alt="Vhealth"
+      /></a>
+    </div>
+    <div class="listing">
+      <ul>
+        <li class="dropdown">
+          <button class="dropbtn"><b>Medical Tests</b></button>
+          <div class="dropdown-content">
+            <a href="./sub healthtest.html">Men's Health</a>
+            <a href="./woman sub healthtest.html">Women's Health</a>
+            <a href="./sexual.html">Sexual Health</a>
+            <a href="./general.html">General Health</a>
+            <a href="./Covid.html">COVID Health</a>
           </div>
-        <div class="David">
-            <input  class="da" type="text" 
-            name="search" placeholder="Search for your drugs and book your test">
-        
-            <a class="Loginb" href="./login.html">Log In</a>
-            <a href="./cart.html"><img src="./shopping-cart.png" alt=""></a>
-        </div>
+        </li>
+        <li class="dropdown">
+          <a href="./drugs.html"
+            ><button class="dropbtn"><b>Drugs</b></button></a
+          >
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn"><b>Help</b></button>
+          <div class="dropdown-content">
+            <a href="#doc">Medical Advised Section</a>
+            <a href="./symptoms.html">Emergency Section</a>
+            <a href="#fut">Contact Us</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="David">
+      <input
+        class="da"
+        type="text"
+        name="search"
+        placeholder="Search for your drugs and book your test"
+      />
+      <input
+        type="submit"
+        value="&#128269;Search"
+        style="
+          height: 40px;
+          font-size: 18px;
+          border-radius: 16px;
+          border: 2px solid green;
+          color: green;
+        "
+      />
+
+      <a class="Loginb" href="./login.html">Log In</a>
+      <a href="./cart.html"><img src="./shopping-cart.png" alt="" /></a>
+    </div>
     <div class="guest">
-        <div class="guestform">
-          <h2>Insurance Integration</h2>
-<label for="name">First Name:</label>
-    <input class="s" style="width: 700px;margin-left: 93px;"
-     type="email" id="name" name="name" placeholder="Joshua" required> <br> <br>
-     <label for="name">Insurance Company:</label>
-      <select id="Mstatus" name="Mstatus" maxlength="700px" style="height: 40px;
-      width: 700px; margin-left: 23px; border-radius: 16px;" required>
-          <option class="sel" value="select">NHIS</option> 
-      <option class="sel" value="single">New Business Health Insurance</option> 
-      <option class="sel" value="Married">Swift Insurance</option> 
-      <option class="sel" value="Divorce">Leadway Assurance</option> 
-        
-     </select> <br> <br>
-      <label for="number">Phone number:</label>
-      <input class="s" style="width: 700px;margin-left: 68px;"
-       type="email" id="emial" name="email" placeholder="08037468711" required> <br> <br>
-       <label for="text">Enter your address:</label>
-       <input class="s" style="width: 700px;margin-left: 40px;"
-        type="email" id="address" name="address" placeholder="Enter your address" required> <br> <br> 
+      <div class="guestform">
+        <h2>Insurance Integration</h2>
+        <label for="name">First Name:</label>
+        <input
+          class="s"
+          style="width: 700px; margin-left: 93px"
+          type="email"
+          id="name"
+          name="name"
+          placeholder="Joshua"
+          required
+        />
+        <br />
+        <br />
+        <label for="name">Insurance Company:</label>
+        <select
+          id="Mstatus"
+          name="Mstatus"
+          maxlength="700px"
+          style="
+            height: 40px;
+            width: 700px;
+            margin-left: 23px;
+            border-radius: 16px;
+          "
+          required
+        >
+          <option class="sel" value="select">NHIS</option>
+          <option class="sel" value="single">
+            New Business Health Insurance
+          </option>
+          <option class="sel" value="Married">Swift Insurance</option>
+          <option class="sel" value="Divorce">Leadway Assurance</option>
+        </select>
+        <br />
+        <br />
+        <label for="number">Phone number:</label>
+        <input
+          class="s"
+          style="width: 700px; margin-left: 68px"
+          type="email"
+          id="emial"
+          name="email"
+          placeholder="08037468711"
+          required
+        />
+        <br />
+        <br />
+        <label for="text">Enter your address:</label>
+        <input
+          class="s"
+          style="width: 700px; margin-left: 40px"
+          type="email"
+          id="address"
+          name="address"
+          placeholder="Enter your address"
+          required
+        />
+        <br />
+        <br />
         <label for="tex">Insurance number:</label>
-       <input class="s" style="width: 700px;margin-left: 45px;"
-        type="email" id="emial" name="symptoms"  required> <br> <br> 
-        <a class="tt" href="./thank you page.html">Submit</a> <br> <br>
-</div></div>
-<div class="footer" id="fut">
-  <div class="about" style="width: 300px;margin-top: 1%;">
-<ul><strong>Contact Us</strong><br> <br>
-<li><a href="newyork.com"><img src="./call-calling.png" alt="location" style="background-color: white;">
-</a>08037468711</li><br><br>
-<li><a href="newyork.com">
-  <img src="./timer-start.png" alt="" style="background-color: white;"></a>Mon-Sun(8am-5pm)</li><br><br>
-  <li><a href="newyork.com">
-      <img src="./directbox-receive.png" alt="" style="background-color: white;"></a>VHealth@gmail.com</li><br><br>
-<li>Follow us on:</li><br>
-<li><a href="www.facebook.com"><img src="facebook.png" alt="facebook" style="background-color: white;"></a>
- <a href="www.twitter.com"><img src="TWITTER.png" alt="twitter" style="background-color: white;"></a>
- <a href="www.instagram.com"><img src="instagram-logo.png" 
-  alt="instagram" style="background-color: white;"></a></li>
-</ul></div>
-<div class="shift">
-<div class="ff">
-  <ul>
-    <li><strong>About</strong></li>
-  <li><a href="newyork.com">Partner With Us</a></li>
-  <li><a href="newyork.com">Career</a></li>
-</ul></div>
-<div class="ff">
-  <ul>
-  <li><strong>Packages</strong></li>
-      <li><a href="./sub healthtest.html">Men's Health</a></li>
-      <li><a href="./woman sub healthtest.html">Women's Health</a></li>
-      <li><a href="./sexual.html">Sexual Health</a></li>
-      <li><a href="./general.html">General Health</a></li>
-      <li><a href="./Covid.html">COVID Health</a></li>
-  </ul></div>
-  <div class="ff">
-    <ul>
-    <li><strong>More</strong></li>      
-          <li><a href="newyork.com">Privacy Policy</a></li>
-          <li><a href="newyork.com">Terms & Conditions</a></li>
-      </ul></div>
-          </div>
-         
+        <input
+          class="s"
+          style="width: 700px; margin-left: 45px"
+          type="email"
+          id="emial"
+          name="symptoms"
+          required
+        />
+        <br />
+        <br />
+        <a class="tt" href="./thank you page.html">Submit</a> <br />
+        <br />
+      </div>
+    </div>
+    <div class="footer" id="fut">
+      <div class="about" style="width: 300px; margin-top: 1%">
+        <ul>
+          <strong>Contact Us</strong
+          ><br />
+          <br />
+          <li>
+            <a href="newyork.com"
+              ><img
+                src="./call-calling.png"
+                alt="location"
+                style="background-color: white"
+              /> </a
+            >08037468711
+          </li>
+          <br /><br />
+          <li>
+            <a href="newyork.com">
+              <img
+                src="./timer-start.png"
+                alt=""
+                style="background-color: white" /></a
+            >Mon-Sun(8am-5pm)
+          </li>
+          <br /><br />
+          <li>
+            <a href="newyork.com">
+              <img
+                src="./directbox-receive.png"
+                alt=""
+                style="background-color: white" /></a
+            >VHealth@gmail.com
+          </li>
+          <br /><br />
+          <li>Follow us on:</li>
+          <br />
+          <li>
+            <a href="www.facebook.com"
+              ><img
+                src="facebook.png"
+                alt="facebook"
+                style="background-color: white"
+            /></a>
+            <a href="www.twitter.com"
+              ><img
+                src="TWITTER.png"
+                alt="twitter"
+                style="background-color: white"
+            /></a>
+            <a href="www.instagram.com"
+              ><img
+                src="instagram-logo.png"
+                alt="instagram"
+                style="background-color: white"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="shift">
+        <div class="ff">
+          <ul>
+            <li><strong>About</strong></li>
+            <li><a href="newyork.com">Partner With Us</a></li>
+            <li><a href="newyork.com">Career</a></li>
+          </ul>
         </div>
-        <div class="fot" style="font-size: 16px;"><p>© VHealth 2023</p></div>
-        <div class="ki"><p><span style="color:green ;">Get notifications you may have missed.</span> <br>
-          Plus get the inside scoop on our latest
-           content and updates in our monthly newsletter.</p><li><input class="ko" type="search" name="search" 
-       placeholder="Enter Your Email Address">
-          <input type="submit" value="Subscribe Now" style="height: 40px; font-size: 18px;
-           border-radius: 16px; background-color: green; color: white;"></li></div>
-           </div>
-           <div class="app"><a href=""><img src="appstore.jpg" alt="appstore">
-           </a></div>
-            <div class="app2"><a href=""><img src="googleplay.jpg" alt="appstore">
-            </a></div>
-          </div>
-      
-</body>
+        <div class="ff">
+          <ul>
+            <li><strong>Packages</strong></li>
+            <li><a href="./sub healthtest.html">Men's Health</a></li>
+            <li><a href="./woman sub healthtest.html">Women's Health</a></li>
+            <li><a href="./sexual.html">Sexual Health</a></li>
+            <li><a href="./general.html">General Health</a></li>
+            <li><a href="./Covid.html">COVID Health</a></li>
+          </ul>
+        </div>
+        <div class="ff">
+          <ul>
+            <li><strong>More</strong></li>
+            <li><a href="newyork.com">Privacy Policy</a></li>
+            <li><a href="newyork.com">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="fot" style="font-size: 16px"><p>© VHealth 2023</p></div>
+    <div class="ki">
+      <p>
+        <span style="color: green">Get notifications you may have missed.</span>
+        <br />
+        Plus get the inside scoop on our latest content and updates in our
+        monthly newsletter.
+      </p>
+      <li>
+        <input
+          class="ko"
+          type="search"
+          name="search"
+          placeholder="Enter Your Email Address"
+        />
+        <input
+          type="submit"
+          value="Subscribe Now"
+          style="
+            height: 40px;
+            font-size: 18px;
+            border-radius: 16px;
+            background-color: green;
+            color: white;
+          "
+        />
+      </li>
+    </div>
+
+    <div class="app">
+      <a href=""><img src="appstore.jpg" alt="appstore" /> </a>
+    </div>
+    <div class="app2">
+      <a href=""><img src="googleplay.jpg" alt="appstore" /> </a>
+    </div>
+  </body>
 </html>
